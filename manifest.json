@@ -1,0 +1,26 @@
+{
+    "manifest_version":2,
+    "version":"0.1",
+    
+    "name":"Edge Collections",
+    "description":"Implements collections feature from Microsoft Edge into Firefox.",
+
+    "browser_specific_settings":{
+
+    },
+
+    "permissions":[
+        "activeTab",
+        "menus",
+        "storage"
+    ],
+
+    "browser_action":{
+        "default_icon":{
+
+        },
+        "default_title":"Collections",
+        "default_popup":"popup/collections_home.html"
+    }
+
+}

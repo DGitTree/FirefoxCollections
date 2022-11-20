@@ -1,0 +1,46 @@
+html,
+body{
+    width: 240px;
+    height: auto;
+    margin-bottom: 8px;
+}
+
+.hidden {
+    display: none;
+}
+
+/*header styling*/
+.header {
+    display: flex;
+    border: 1px black;
+    align-items: left;
+
+    margin: 4px;
+}
+#title {
+    margin: 2px;
+    border: 0;
+}
+.header button {
+    margin-left: auto;
+}
+
+
+.collection-display{
+    margin: 4px;
+    margin-left: 0px;
+}
+.collection-display button{
+    float: left;
+    height: 60px;
+    width: 80px;
+}
+.collection-display h4, p{
+    margin: 1px 1px 1px 8px;
+    display: block;
+}
+
+.caption {
+    font-size: x-small;
+}
+
